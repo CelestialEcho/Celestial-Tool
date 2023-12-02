@@ -185,7 +185,7 @@ def main_menu2():
 ██║     ██╔══╝  ██║     ██╔══╝         |       [4] (bonus) download website / page
 ╚██████╗███████╗███████╗███████╗       |       [5] whois function
  ╚═════╝╚══════╝╚══════╝╚══════╝       |
-                                       |       author: https://github.com/gohan-to-mizu
+                                       |       author: https://github.com/CelestialEcho
 ███████╗████████╗██╗ █████╗ ██╗        |       
 ██╔════╝╚══██╔══╝██║██╔══██╗██║        |       [6] nickname byfinder
 ███████╗   ██║   ██║███████║██║        |       
