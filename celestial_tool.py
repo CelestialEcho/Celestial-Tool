@@ -190,6 +190,7 @@ def ping_ip():
     process = os.system(f'ping {ip_address}')
     print(process)
 
+
 def main_menu2():
         print(fade.water("""
  ██████╗███████╗██╗     ███████╗       |      [1] get my ip info
