@@ -10,7 +10,7 @@ Key Features:
 • Program Information: Get insights into the modules and libraries used in the program.
 
 Dependencies:
-• Colorama
+• Colorama\n
 • Requests
 • Fade
 • Python-whois
