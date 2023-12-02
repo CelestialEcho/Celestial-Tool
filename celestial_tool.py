@@ -1,7 +1,59 @@
-import ctypes
 import os
 import sys
 import time
+
+def start_printings():
+    os.system('cls')
+
+    print('downloading libraries.')
+    os.system('pip install colorama')
+    os.system('cls')
+    time.sleep(0.7)
+
+    print(Fore.MAGENTA + 'downloading libraries..')
+    os.system('pip install requests')
+    os.system('cls')
+    time.sleep(0.7)
+
+    print(Fore.MAGENTA + 'downloading libraries...')
+    os.system('pip install fade')
+    os.system('cls')
+    time.sleep(0.7)
+
+    print(Fore.MAGENTA + 'downloading libraries.')
+    os.system('pip install python-whois')
+    os.system('cls')
+    time.sleep(0.7)
+
+    print(Fore.MAGENTA + 'downloading libraries..')
+    os.system('pip install pywebcopy')
+    os.system('cls')
+    time.sleep(0.7)
+
+    print(Fore.MAGENTA + 'downloading libraries...')
+    os.system('pip install validators')
+    os.system('cls')
+    time.sleep(0.7)
+
+    print(Fore.MAGENTA + 'downloading libraries.')
+    os.system('pip install pywebcopy')
+    os.system('cls')
+    time.sleep(0.7)
+
+    print(Fore.MAGENTA + 'downloading libraries.')
+    os.system('pip install bs4')
+    os.system('cls')
+    time.sleep(0.7)
+
+    print('Successful!')
+    os.system('cls')
+    print(Style.RESET_ALL)
+
+
+start_printings()
+
+
+import ctypes
 import fade
 import requests
 import whois
@@ -82,49 +134,6 @@ def set_console_title():
 
 
 API = '6C6A0565BD8ACBA3637521531867E4C0'
-
-
-def start_printings():
-    os.system('cls')
-
-    print(Fore.MAGENTA + 'downloading libraries.')
-    os.system('pip install colorama')
-    os.system('cls')
-    time.sleep(0.7)
-
-    print(Fore.MAGENTA + 'downloading libraries..')
-    os.system('pip install requests')
-    os.system('cls')
-    time.sleep(0.7)
-
-    print(Fore.MAGENTA + 'downloading libraries...')
-    os.system('pip install fade')
-    os.system('cls')
-    time.sleep(0.7)
-
-    print(Fore.MAGENTA + 'downloading libraries.')
-    os.system('pip install python-whois')
-    os.system('cls')
-    time.sleep(0.7)
-
-    print(Fore.MAGENTA + 'downloading libraries..')
-    os.system('pip install pywebcopy')
-    os.system('cls')
-    time.sleep(0.7)
-
-    print(Fore.MAGENTA + 'downloading libraries...')
-    os.system('pip install validators')
-    os.system('cls')
-    time.sleep(0.7)
-
-    print(Fore.MAGENTA + 'downloading libraries.')
-    os.system('pip install shutil')
-    os.system('cls')
-    time.sleep(0.7)
-
-    print('Successful!')
-    os.system('cls')
-    print(Style.RESET_ALL)
 
 
 
@@ -316,6 +325,6 @@ def get_whois_info():
 
 
 set_console_title()
-#start_printings()
+
 main_menu2()
 main_scene()
