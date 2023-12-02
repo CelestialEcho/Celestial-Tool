@@ -184,14 +184,14 @@ def main_menu2():
 ██║     █████╗  ██║     █████╗         |       [3] ping ip
 ██║     ██╔══╝  ██║     ██╔══╝         |       [4] (bonus) download website / page
 ╚██████╗███████╗███████╗███████╗       |       [5] whois function
- ╚═════╝╚══════╝╚══════╝╚══════╝       |
-                                       |       author: https://github.com/CelestialEcho
+ ╚═════╝╚══════╝╚══════╝╚══════╝       |       [6] nickname byfinder
+                                       |       
 ███████╗████████╗██╗ █████╗ ██╗        |       
-██╔════╝╚══██╔══╝██║██╔══██╗██║        |       [6] nickname byfinder
-███████╗   ██║   ██║███████║██║        |       
+██╔════╝╚══██╔══╝██║██╔══██╗██║        |       author: https://github.com/CelestialEcho
+███████╗   ██║   ██║███████║██║        |       [9] exit
 ╚════██║   ██║   ██║██╔══██║██║        |
-███████║   ██║   ██║██║  ██║███████╗   |       [8] programm info
-╚══════╝   ╚═╝   ╚═╝╚═╝  ╚═╝╚══════╝   |       [9] exit
+███████║   ██║   ██║██║  ██║███████╗   |       
+╚══════╝   ╚═╝   ╚═╝╚═╝  ╚═╝╚══════╝   |       
 """))
 
 
@@ -261,13 +261,6 @@ def main_scene():
             nickname_finder(nickname)
             main_menu2()
 
-
-        elif choose_def == '8':
-            os.system('cls')
-            print(
-                '\n I did this programm for 2 days, i think that is quite a lot, \nmodules which i have used: '
-                '\nctypes, os, sys\ntime, fade, requests\nwhois, colorama, pywebcopy\n and validators')
-            main_menu2()
 
         elif choose_def == '9':
             os.system('cls')
