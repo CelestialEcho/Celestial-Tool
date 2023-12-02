@@ -22,7 +22,7 @@ Celestial Tool is a versatile Python-based tool designed for a variety of tasks 
 - BeautifulSoup
 
 ## Usage:
-1. Clone the repository: `git clone https://github.com/your-username/Celestial-Tool.git`
+1. Clone the repository: `git clone https://github.com/СelestialEcho/Celestial-Tool.git`
 2. Navigate to the project directory: `cd Celestial-Tool`
 3. Run the program: `python celestial_tool.py`
 
