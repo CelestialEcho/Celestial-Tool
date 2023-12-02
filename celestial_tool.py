@@ -2,6 +2,7 @@ import os
 import sys
 import time
 
+
 def start_printings():
     os.system('cls')
 
@@ -36,10 +37,10 @@ def start_printings():
     time.sleep(0.7)
 
     print(Fore.MAGENTA + 'downloading libraries.')
-    os.system('pip install pywebcopy')
+    os.system('pip install shutil')
     os.system('cls')
     time.sleep(0.7)
-
+    
     print(Fore.MAGENTA + 'downloading libraries.')
     os.system('pip install bs4')
     os.system('cls')
@@ -63,7 +64,7 @@ import validators
 from bs4 import *
 
 
-os.system('mode con: cols=100 lines=40')
+os.system('mode con: cols=87 lines=50')
 
 
 def warning(text):
@@ -130,10 +131,13 @@ def site_downloader():
 
 
 def set_console_title():
-    ctypes.windll.kernel32.SetConsoleTitleW("IP SCRAPPER")
+    ctypes.windll.kernel32.SetConsoleTitleW("Celestial /|\ ^._.^ /|\ ")
 
 
 API = '6C6A0565BD8ACBA3637521531867E4C0'
+
+
+
 
 
 
@@ -187,20 +191,20 @@ def ping_ip():
     print(process)
 
 def main_menu2():
-    print(fade.water("""
- ██████╗███████╗██╗     ███████╗       |       [1] get my ip info
-██╔════╝██╔════╝██║     ██╔════╝       |       [2] get another ip info
-██║     █████╗  ██║     █████╗         |       [3] ping ip
-██║     ██╔══╝  ██║     ██╔══╝         |       [4] (bonus) download website / page
-╚██████╗███████╗███████╗███████╗       |       [5] whois function
- ╚═════╝╚══════╝╚══════╝╚══════╝       |       [6] nickname byfinder
-                                       |       
-███████╗████████╗██╗ █████╗ ██╗        |       
-██╔════╝╚══██╔══╝██║██╔══██╗██║        |       author: https://github.com/CelestialEcho
-███████╗   ██║   ██║███████║██║        |       [9] exit
+        print(fade.water("""
+ ██████╗███████╗██╗     ███████╗       |      [1] get my ip info
+██╔════╝██╔════╝██║     ██╔════╝       |      [2] get another ip info
+██║     █████╗  ██║     █████╗         |      [3] ping ip
+██║     ██╔══╝  ██║     ██╔══╝         |      [4] (bonus) download website / page
+╚██████╗███████╗███████╗███████╗       |      [5] whois function
+ ╚═════╝╚══════╝╚══════╝╚══════╝       |      [6] nickname byfinder
+                                       |      
+███████╗████████╗██╗ █████╗ ██╗        |      [9] exit
+██╔════╝╚══██╔══╝██║██╔══██╗██║        |      
+███████╗   ██║   ██║███████║██║        |      Author: https://github.com/CelestialEcho 
 ╚════██║   ██║   ██║██╔══██║██║        |
-███████║   ██║   ██║██║  ██║███████╗   |       
-╚══════╝   ╚═╝   ╚═╝╚═╝  ╚═╝╚══════╝   |       
+███████║   ██║   ██║██║  ██║███████╗   |      
+╚══════╝   ╚═╝   ╚═╝╚═╝  ╚═╝╚══════╝   |      
 """))
 
 
@@ -271,6 +275,13 @@ def main_scene():
             main_menu2()
 
 
+        elif choose_def == '8':
+            os.system('cls')
+            print(
+                '\n I did this programm for 2 days, i think that is quite a lot, \nmodules which i have used: '
+                '\nctypes, os, sys\ntime, fade, requests\nwhois, colorama, pywebcopy\n and validators')
+            main_menu2()
+
         elif choose_def == '9':
             os.system('cls')
             print(Style.RESET_ALL)
@@ -325,6 +336,5 @@ def get_whois_info():
 
 
 set_console_title()
-
 main_menu2()
 main_scene()
