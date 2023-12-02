@@ -1,7 +1,7 @@
 <details>
 <summary>• Celestial Tool</summary>
 
-Celestial Tool is a versatile Python-based tool designed for a variety of tasks ranging from IP and domain analysis to web scraping and website analytics. The tool is built with convenience in mind, providing a user-friendly interface for users to access a range of functions.
+Celestial Tool is a versatile Python-based tool designed for a variety of tasks ranging from IP and domain analysis to web scraping. The tool is built with convenience in mind, providing a user-friendly interface for users to access a range of functions.
 
 ## Key Features:
 - **IP and Domain Information:** Retrieve detailed information about your IP address or any other IP/domain, including location details using the IP2Location API.
@@ -9,7 +9,6 @@ Celestial Tool is a versatile Python-based tool designed for a variety of tasks 
 - **Website/Page Downloader:** Download web pages or entire websites effortlessly with options to specify the project folder and name.
 - **WHOIS Lookup:** Gather WHOIS information for both domains and IP addresses.
 - **Nickname Finder:** Search for a given nickname across multiple platforms, providing links to profiles associated with that nickname.
-- **Website Analytics:** Retrieve engagement statistics for a given website using data from SimilarWeb.
 - **Program Information:** Get insights into the modules and libraries used in the program.
 
 ## Dependencies:
