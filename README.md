@@ -1,4 +1,4 @@
-<details>
+
 <summary>• Celestial Tool</summary>
 
 Celestial Tool is a versatile Python-based tool designed for a variety of tasks ranging from IP and domain analysis to web scraping. The tool is built with convenience in mind, providing a user-friendly interface for users to access a range of functions.
@@ -31,4 +31,4 @@ This tool is created by CelestialEcho. Find me on GitHub: https://github.com/Cel
 Celestial Tool is an ongoing project, and your feedback and contributions are highly appreciated. Feel free to open issues or pull requests to enhance the functionality or report any bugs you may encounter.
 
 
-</details>
+
