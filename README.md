@@ -23,7 +23,8 @@ Celestial Tool is a versatile Python-based tool designed for a variety of tasks 
 ## Usage:
 1. Clone the repository: `git clone https://github.com/СelestialEcho/Celestial-Tool.git`
 2. Navigate to the project directory: `cd Celestial-Tool`
-3. Run the program: `python celestial_tool.py`
+3. Install required libraries: `pip install colorama requests fade python-whois pywebcopy validators bs4`
+4. Run the program: `python celestial_tool.py`
 
 ## Author:
 This tool is created by CelestialEcho. Find me on GitHub: https://github.com/CelestialEcho
